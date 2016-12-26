@@ -1,10 +1,10 @@
 # PhoneNumberLoginDemo
   
-手机号码登录Demo程序采用的是json作为服务器的返回数据格式。
+手机号码登录Demo采用的是json作为服务器的返回数据格式。
 为了保证登录状态，可以采用Oauth2.0认证管理，通过手机号码和验证码向服务器获取access_token，refresh_token，以及expires_in,
 当access_token过期时，可以通过refresh_token向服务器获取更新后的access_token以及expires_in。
 
-该Demo程序使用CocoaPods方式管理第三方库，模块划分如下：
+该Demo使用CocoaPods方式管理第三方库，模块划分如下：
 1. Controllers
 	控制器模块，包含的界面如下：
 	a. PhoneNumberLoginViewController: 手机号码登录页面

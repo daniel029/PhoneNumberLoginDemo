@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - JSONKit (1.4)
+  - Masonry (1.0.1)
+  - MBProgressHUD (1.0.0)
+  - MSWeakTimer (1.1.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - CocoaLumberjack
+  - JSONKit
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+  - MSWeakTimer (~> 1.1.0)
+  - Reachability
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  JSONKit: 5b69e804ea54d99293eed0fd2ce596c5703fefb0
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  Demo
+//
+//  Created by LiuYingbin on 12/24/16.
+//  Copyright © 2016 LiuYingbin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import "KeyChainDefine.h"
+#import "UIDefine.h"
+#import "ErrorCodeDefine.h"
+#import "CG.h"
+#import "MultiLanguageManager.h"
+#import "NSString+Category.h"
+#import "NetworkManager.h"
+#import "NotificationDefine.h"
+#import "MBProgressHUD.h"
+#import "NSDictionaryAdditions.h"
+#import "ResponseError.h"
+
+
+#ifdef DEBUG
+
+static const int ddLogLevel = DDLogLevelVerbose;
+
+#else
+
+static const int ddLogLevel = DDLogLevelOff;
+
+#endif
+
+#endif /* PrefixHeader_pch */
